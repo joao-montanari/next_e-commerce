@@ -11,8 +11,10 @@ export default function Box(){
                     width={60}
                     height={60}
                 />
-                <label> <b> FRETE GRÁTIS </b> </label>
-                <p>Em até 10 vezes sem juror</p>
+                <div className={Styles.content}>
+                    <label> <b> FRETE GRÁTIS </b> </label>
+                    <p>Para alguns estados</p>
+                </div>
             </div>
             <div className={Styles.child}>
                 <Image
@@ -20,26 +22,44 @@ export default function Box(){
                     width={60}
                     height={60}
                 />
-                <label htmlFor='desc'> <b> SITE SEGURO </b> </label>
+                <div className={Styles.content}>
+                    <label htmlFor='desc'> <b> SITE SEGURO </b> </label>
+                    <p>Compre segurança</p>
+                </div>
             </div>
-            <Image
-                src="/img/icons/conversa.ico"
-                width={60}
-                height={60}
-            />
-            <label> <b> ATENDIMENTO </b> </label>
-            <Image
-                src="/img/icons/moedas.ico"
-                width={60}
-                height={60}
-            />
-            <label> <b> CLUBE DE VANTAGENS </b> </label>
-            <Image
-                src="/img/icons/cartao.ico"
-                width={60}
-                height={60}
-            />
-            <label> <b> PARCELAMENTO </b> </label>
+            <div className={Styles.child}>
+                <Image
+                    src="/img/icons/conversa.ico"
+                    width={60}
+                    height={60}
+                />
+                <div className={Styles.content}>
+                    <label> <b> ATENDIMENTO </b> </label>
+                    <p>Via WhatsApp</p>
+                </div>
+            </div>
+            <div className={Styles.child}>
+                <Image
+                    src="/img/icons/moedas.ico"
+                    width={60}
+                    height={60}
+                />
+                <div className={Styles.content}>
+                    <label> <b> VANTAGENS </b> </label>
+                    <p>Ganhe pontos e troque por produtos</p>
+                </div>
+            </div>
+            <div className={Styles.child}>
+                <Image
+                    src="/img/icons/cartao.ico"
+                    width={60}
+                    height={60}
+                />
+                <div className={Styles.content}>
+                    <label> <b> PARCELAS </b> </label>
+                    <p>Em até 10 vezes sem juros</p>
+                </div>
+            </div>
         </div>
     )
 }

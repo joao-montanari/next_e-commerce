@@ -1,9 +1,13 @@
-.container{
-  width: 100%;
-  height: 500px;
+.destaque{
+  color: #00649A;
+  width: 220px;
+  margin-left: 8%;
+  margin-top: 50px;
+  border-bottom: 5px solid #00649A;
 }
 
-.container h1{
-  margin: 10px;
-  text-align: center;
+.container hr{
+  width: 84%;
+  margin: auto;
+  color: #00649A;
 }
