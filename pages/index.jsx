@@ -3,9 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from '../styles/Home.module.css';
+
+import Box from '../components/Box';
 import CardPag from '../components/CardPag';
-import Card from '../components/Card';
 import LayoutCards from '../components/LayoutCards';
+import LayoutWallpaper from '../components/LayoutWallpaper';
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <div className={styles.container}>
         <h1>Parte para as imagens</h1>
       </div>
+      <Box />
+      <LayoutWallpaper />
       <CardPag />
       <LayoutCards />
     </>

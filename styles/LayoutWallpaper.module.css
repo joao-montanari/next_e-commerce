@@ -1,0 +1,18 @@
+.container{
+    width: 85%;
+    display: flex;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.child{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.imagem{
+    width: 80%;
+    margin: auto;
+}

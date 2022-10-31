@@ -2,6 +2,20 @@
     width: 90%;
     height: 800px;
     margin: 30px auto;
+}
+
+.buttonMais{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    background-color: #00649A;
+    border: 1px solid #00649A;
+    margin-left: calc(50% - 100px);
+    transition: all 0.3s;
+}
+
+.buttonMais:hover{
+    background-color: #000;
     border: 1px solid #000;
 }
 
@@ -15,7 +29,6 @@
     height: 45%;
     display: flex;
     align-items: center;
-    border: 1px solid #000;
     justify-content: space-around;
 }
 
@@ -29,13 +42,45 @@
 .demonstrativo{
     width: 100%;
     height: 50%;
+    display: grid;
+    align-items: center;
     border-bottom: 1px solid rgb(130, 130, 130);
 }
 
-.container  button{
-    width: 200px;
-    height: 50px;
-    margin: auto;
-    font-size: larger;
+.descricao ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.descricao li{
+    margin: 4px;
+}
+
+.descricao button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    transition: all 0.3;
     background-color: #000;
+    border: 1px solid #000;
+}
+
+.descricao button:hover{
+    border: 1px solid #00649A;
+    background-color: #00649A;
+}
+
+.descricao a{
+    padding: 8px;
+    color: #fff;
+    font-size: medium;
+    transition: all 0.3s;
+}
+
+.descricao label{
+    color: rgb(34, 180, 34);
+}
+
+.preco{
+    font-size: 22px;
 }

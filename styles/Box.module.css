@@ -1,0 +1,18 @@
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px black;
+}
+
+.child{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    border: 1px solid #000;
+}
