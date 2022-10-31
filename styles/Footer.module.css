@@ -1,0 +1,50 @@
+.container{
+    color: #fff;
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+}
+
+.child{
+    /* border: 1px solid #fff; */
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.child h1{
+    font-size: 50px;
+    
+}
+
+.child h3{
+    font-size: 25px;
+}
+
+.box{
+    /* border: 1px solid #fff; */
+    width: 50%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.box h2{
+    text-align: right;
+}
+
+.box ul{
+    list-style: none;
+    text-align: right;
+}
+
+.box li{
+    padding: 2px;
+}
+
+.box a{
+    color: #fff;
+    text-decoration: none;
+}
