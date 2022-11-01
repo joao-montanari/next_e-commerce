@@ -9,13 +9,11 @@ Desenvolvedores:
 - Kauan Costa
 - Wendell Santos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sobre o projeto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+O projeto se trata de um e-commerce, o site se baseia na ideia de se assemelhar com sites como o Mercado Livre, Submarino entre outros. Assim se tratando de um centro comercial que vende uma diversidade muito grande de produtos, não se limitando a uma tecnologia ou categoria específica.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Para o desenvolvimento do mesmo foi utilizado o Next, um framework baseado na bibliotaca React do JavaScript. Escolhemos esta tecnologia pois o Next vem demonstrado grandes atualizações que seguem os requisitos do mercado para a atualidade, atualmente o mesmo se encontra na versão 13.0 apresentando ferramentas poderosas. Outra plataforma utilizada foi o Canva, para o dimensionamento e modelamento de imagens e estilização do site, desta forma, criando um conteudo criativo e atrativo para o público. Tudo isso integrado com o CSS das páginas para entregar um site dinámico e interessante.
 
 ## Learn More
 
