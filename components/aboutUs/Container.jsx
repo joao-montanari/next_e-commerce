@@ -1,6 +1,7 @@
 import Styles from '../../styles/aboutUs/Container.module.css';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Container(){
     return(
@@ -14,6 +15,11 @@ export default function Container(){
             </p>
             <div className={Styles.child}>
                 <div className={Styles.card}>
+                    <Image
+                        src="/img/devs/joao-montanari.png"
+                        width={230}
+                        height={115}
+                    />
                     <h4>João Montanari</h4>
                     <ul>
                         <li>Idade: 19</li>
@@ -22,6 +28,11 @@ export default function Container(){
                     </ul>
                 </div>
                 <div className={Styles.card}>
+                    <Image
+                        src="/img/devs/eric-britto.png"
+                        width={230}
+                        height={115}
+                    />
                     <h4>Eric Britto</h4>
                     <ul>
                         <li>Idade: 18</li>
@@ -30,6 +41,11 @@ export default function Container(){
                     </ul>
                 </div>
                 <div className={Styles.card}>
+                    <Image
+                        src="/img/devs/kauan-costa.png"
+                        width={230}
+                        height={115}
+                    />
                     <h4>Kauan Costa</h4>
                     <ul>
                         <li>Idade: 19</li>
@@ -38,7 +54,12 @@ export default function Container(){
                     </ul>
                 </div>
                 <div className={Styles.card}>
-                    <h4>Wandell Santos</h4>
+                    <Image
+                        src="/img/devs/wandell-santos.png"
+                        width={230}
+                        height={115}
+                    />
+                    <h4>Wendell Santos</h4>
                     <ul>
                         <li>Idade: 19</li>
                         <li>Cidade: Campinas</li>
@@ -46,7 +67,7 @@ export default function Container(){
                     </ul>
                 </div>
             </div>
-            <Link className={Styles.link} href="https://github.com/joao-montanari/next_e-commerce">Repositório do projeto</Link>
+            <button><Link className={Styles.link} href="https://github.com/joao-montanari/next_e-commerce">Repositório do projeto</Link></button>
         </div>
     )
 }

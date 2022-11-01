@@ -12,7 +12,7 @@ export default function LayoutCards(){
                     preco = {1049.99}
                     descricao="Bike PRO Cinza Novo"
                     frete="Frete Grátis"
-                    link="/products"
+                    link="/products/bicicleta"
                 />
                 <Card
                     nome="Computador"

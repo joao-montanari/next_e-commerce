@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import Container from '../components/aboutUs/Container';
+import Box from '../components/aboutUs/Box';
+import Project from '../components/aboutUs/Project';
 
 export default function About(){
     return(
@@ -13,6 +15,9 @@ export default function About(){
             </Head>
             <h1>About Us</h1>
             <Container />
+            <Project />
+            <h1>Tecnologias usadas</h1>
+            <Box />
         </>
     )
 }
