@@ -1,14 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Projeto feito em NEXT JS
 
-First, run the development server:
+Desenvolvedores:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Joao Vitor Montanari da Silva
+- Eric Britto Barreto
+- Kauan Costa
+- Wendell Santos
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
