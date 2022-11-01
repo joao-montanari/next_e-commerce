@@ -6,6 +6,12 @@ export default function Card(){
     return(
         <div className={Styles.container}>
             <div className={Styles.exibicao}>
+                <Image
+                    src="/img/produtos/bicicleta-demontrativo.webp"
+                    width={400}
+                    height={400}
+                    alt="image"
+                />
             </div>
             <div className={Styles.descritivo}>
                 <h3>Bicicleta South Stark 2021 Aro 29 Alumínio Freio A Disco 24 Marchas Câmbio Importado</h3>
@@ -49,7 +55,7 @@ export default function Card(){
                     <input type="text" placeholder="digite o CEP" />
                     <button>Ok</button>
                 </div>
-                <button style={Styles.comprar}>Compra</button>
+                <button className={Styles.btnComp}>Comprar</button>
             </div>
         </div>
     )

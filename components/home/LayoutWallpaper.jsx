@@ -10,6 +10,7 @@ export default function LayoutWallpaper(){
                     src="/img/wallpaper/tablets.png"
                     width={700}
                     height={350}
+                    alt="image"
                 />
             </div>
             <div className={Styles.child}>
@@ -18,6 +19,7 @@ export default function LayoutWallpaper(){
                     src="/img/wallpaper/celulares.png"
                     width={700}
                     height={350}
+                    alt="image"
                 />
             </div>
         </div>

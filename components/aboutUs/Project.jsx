@@ -1,7 +1,5 @@
 import Styles from '../../styles/aboutUs/Project.module.css';
 
-import Image from 'next/image';
-
 export default function Project(){
     return(
         <div className={Styles.container}>

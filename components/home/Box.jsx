@@ -10,6 +10,7 @@ export default function Box(){
                     src="/img/icons/caminhao.ico"
                     width={60}
                     height={60}
+                    alt="image"
                 />
                 <div className={Styles.content}>
                     <label> <b> FRETE GRÁTIS </b> </label>
@@ -21,6 +22,7 @@ export default function Box(){
                     src="/img/icons/seguro.ico"
                     width={60}
                     height={60}
+                    alt="image"
                 />
                 <div className={Styles.content}>
                     <label htmlFor='desc'> <b> SITE SEGURO </b> </label>
@@ -32,6 +34,7 @@ export default function Box(){
                     src="/img/icons/conversa.ico"
                     width={60}
                     height={60}
+                    alt="image"
                 />
                 <div className={Styles.content}>
                     <label> <b> ATENDIMENTO </b> </label>
@@ -43,6 +46,7 @@ export default function Box(){
                     src="/img/icons/moedas.ico"
                     width={60}
                     height={60}
+                    alt="image"
                 />
                 <div className={Styles.content}>
                     <label> <b> VANTAGENS </b> </label>
@@ -54,6 +58,7 @@ export default function Box(){
                     src="/img/icons/cartao.ico"
                     width={60}
                     height={60}
+                    alt="image"
                 />
                 <div className={Styles.content}>
                     <label> <b> PARCELAS </b> </label>

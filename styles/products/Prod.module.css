@@ -11,13 +11,13 @@
 .exibicao{
     width: 400px;
     height: 400px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .descritivo{
     width: 40%;
     height: 90%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .descritivo h4{
@@ -41,7 +41,7 @@
 .compra{
     width: 25%;
     height: 90%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .compra h4{
@@ -49,11 +49,10 @@
 }
 
 .local{
-    margin: 20px auto;
     width: 100%;
     display: flex;
     align-items: center;
-    /* border: 1px solid #000; */
+    margin: 20px auto;
     justify-content: space-around;
 }
 
@@ -77,4 +76,13 @@
 
 .local button:hover{
     cursor: pointer;
+}
+
+.btnComp{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    margin-left: calc(50% - 50px);
+    border: 1px solid rgb(36, 204, 36);
+    background-color: rgb(36, 204, 36);
 }

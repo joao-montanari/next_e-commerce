@@ -9,21 +9,25 @@ export default function Box(){
                 src="/img/icons/canva.png"
                 width={100}
                 height={100}
+                alt="image"
             />
             <Image
                 src="/img/icons/css.png"
                 width={100}
                 height={100}
+                alt="image"
             />
             <Image
                 src="/img/icons/next.png"
                 width={100}
                 height={100}
+                alt="image"
             />
             <Image
                 src="/img/icons/vercel.png"
                 width={100}
                 height={100}
+                alt="image"
             />
         </div>
     )

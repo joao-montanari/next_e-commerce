@@ -1,0 +1,7 @@
+.container{
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    border: 1px solid rgb(108, 108, 108);
+    background-color: rgb(193, 193, 193);
+}
