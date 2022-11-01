@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import Styles from '../../styles/products/Prod.module.css';
 
 export default function Card(){
@@ -17,9 +19,37 @@ export default function Card(){
                     <li>Código: 3151857984</li>
                     <li>Código de barra: 7898907756839</li>
                     <li>Cor: Cinza</li>
+                    <li>Gênero: Unissex</li>
+                </ul>
+                <h4>Avaliação</h4>
+                <ul>
+                    <li>
+                        <Image
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                        />
+                        <Image
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                        />
+                        <Image
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                        />
+                        <Image
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                        />
+                        <Image
+                            src="/img/icons/estrela-vazia.ico" width={20} height={20}
+                        />
+                    </li>
                 </ul>
             </div>
             <div className={Styles.compra}>
+                <h4>R$: 1049.99</h4>
+                <p>Em 5x sem juros</p>
+                <div className={Styles.local}>
+                    <input type="text" placeholder="digite o CEP" />
+                    <button>Ok</button>
+                </div>
+                <button style={Styles.comprar}>Compra</button>
             </div>
         </div>
     )

@@ -20,6 +20,10 @@
     border: 1px solid #000;
 }
 
+.descritivo h4{
+    padding-top: 20px;
+}
+
 .descritivo p{
     padding: 10px;
     text-align: justify;
@@ -30,6 +34,7 @@
 }
 
 .descritivo li{
+    margin: 2px;
     padding-left: 10px;
 }
 
@@ -37,4 +42,39 @@
     width: 25%;
     height: 90%;
     border: 1px solid #000;
+}
+
+.compra h4{
+    font-size: 30px;
+}
+
+.local{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000; */
+    justify-content: space-around;
+}
+
+.local input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.local button{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-size: medium;
+    border-radius: 3px;
+    background-color: #00649A;
+    border: 1px solid #00649A;
+}
+
+.local button:hover{
+    cursor: pointer;
 }
