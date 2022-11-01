@@ -1,4 +1,4 @@
-import Styles from '../styles/Card.module.css';
+import Styles from '../../styles/home/Card.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 

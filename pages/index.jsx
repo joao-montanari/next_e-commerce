@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 import Styles from '../styles/Home.module.css';
 
-import Box from '../components/Box';
-import CardPag from '../components/CardPag';
-import LayoutCards from '../components/LayoutCards';
-import LayoutWallpaper from '../components/LayoutWallpaper';
+import Box from '../components/home/Box';
+import CardPag from '../components/home/CardPag';
+import LayoutCards from '../components/home/LayoutCards';
+import LayoutWallpaper from '../components/home/LayoutWallpaper';
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Box />
       <LayoutWallpaper />
       <CardPag />
-      <h1 className={Styles.destaque}>Em Destaque</h1>
+      <h2 className={Styles.destaque}>Em Destaque</h2>
       <hr />
       <LayoutCards />
     </div>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import Styles from '../styles/CardLogin.module.css'
+import Styles from '../../styles/login/CardLogin.module.css'
 
 export default function CardLogin(){
     return(

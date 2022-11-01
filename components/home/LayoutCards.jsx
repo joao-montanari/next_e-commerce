@@ -1,4 +1,4 @@
-import Styles from '../styles/Card.module.css';
+import Styles from '../../styles/home/Card.module.css';
 import Link from 'next/link';
 import Card from './Card';
 
@@ -9,7 +9,7 @@ export default function LayoutCards(){
                 <Card
                     nome="Bicicleta"
                     url="/img/produtos/bicicleta.png"
-                    preco = {1049.00}
+                    preco = {1049.99}
                     descricao="Bike PRO Cinza Novo"
                     frete="Frete Grátis"
                     link="/products"
@@ -24,7 +24,7 @@ export default function LayoutCards(){
                 <Card
                     nome="Geladeira"
                     url="/img/produtos/geladeira.png"
-                    preco={2284}
+                    preco={2284.99}
                     descricao="Consul CRD37 branca"
                     frete="Frete Grátis"
                     link="/products"

@@ -1,4 +1,4 @@
-import Styles from '../styles/LayoutWallpaper.module.css';
+import Styles from '../../styles/home/LayoutWallpaper.module.css';
 import Image from 'next/image';
 
 export default function LayoutWallpaper(){

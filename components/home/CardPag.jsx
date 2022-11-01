@@ -1,4 +1,4 @@
-import Styles from '../styles/CardPag.module.css'
+import Styles from '../../styles/home/CardPag.module.css'
 import Image from 'next/image'
 
 export default function CardPag(){

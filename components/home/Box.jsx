@@ -1,4 +1,4 @@
-import Styles from '../styles/Box.module.css';
+import Styles from '../../styles/home/Box.module.css';
 import Image from 'next/image';
 
 export default function Box(){

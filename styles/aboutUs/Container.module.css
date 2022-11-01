@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    color: #fff;
+    height: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #00649A;
+}
+
+.container p{
+    margin: 20px;
+    font-size: 16px;
+}
+
+.container h1{
+    padding: 30px;
+}
+
+.child{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    justify-content: space-around;
+}
+
+.card{
+    width: 230px;
+    height: 230px;
+    border: 1px solid #000;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card li{
+    padding: 2px;
+}
+
+.link{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+}
