@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
-import Container from '../components/aboutUs/Container';
-import Box from '../components/aboutUs/Box';
-import Project from '../components/aboutUs/Project';
+import Container from '../../components/aboutUs/Container';
+import Box from '../../components/aboutUs/Box';
+import Project from '../../components/aboutUs/Project';
 
 export default function About(){
     return(

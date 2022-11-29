@@ -15,7 +15,7 @@ export default function Card(props){
                     <li>{props.descricao}</li>
                     <li>.<label><b>{props.frete}</b></label></li>
                 </ul>
-                <button><Link href= "/products" > <a> Detalhes </a> </Link></button>
+                <button><Link href= "/Products" > Detalhes </Link></button>
             </div>
         </div>
     )

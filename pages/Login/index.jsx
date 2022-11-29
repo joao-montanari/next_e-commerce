@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import CardLogin from '../components/login/CardLogin';
-import ReportProblem from '../components/login/ReportProblem';
+import CardLogin from '../../components/login/CardLogin';
+import ReportProblem from '../../components/login/ReportProblem';
 
 export default function Login(){
     return(

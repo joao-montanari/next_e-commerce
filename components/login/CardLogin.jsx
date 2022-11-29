@@ -15,7 +15,7 @@ export default function CardLogin(){
                 <input id="password" type="password" placeholder="Senha"/>
             </div>
             <Link href="/"><button type="submit" >Continuar</button></Link>
-            <Link href="/cadastro" className={Styles.cadastro} >Criar conta</Link>
+            <Link href="/" className={Styles.cadastro} >Criar conta</Link>
         </form>
     )
 }

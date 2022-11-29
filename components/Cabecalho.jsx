@@ -7,10 +7,10 @@ export default function Cabecalho(){
         <div className={Styles.container}>
             <Image src='/img/logo.png' width={60} height={60} alt='Logo' />
             <ul>
-                <li> <Link href= '/products' > <a> Produtos </a> </Link> </li>
-                <li> <Link href= '/'> <a> Home </a> </Link> </li>
-                <li> <Link href= '/about'> <a> Sobre Nós </a> </Link> </li>
-                <li> <Link href='/login'> <a> Login </a> </Link> </li>
+                <li> <Link href= '/Products' > Produtos </Link> </li>
+                <li> <Link href= '/'> Home </Link> </li>
+                <li> <Link href= '/AboutUs'> Sobre Nós </Link> </li>
+                <li> <Link href='/Login'> Login </Link> </li>
             </ul>
         </div>
     )
