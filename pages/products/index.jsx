@@ -1,30 +1,43 @@
 import Link from 'next/link';
 import axios from 'axios';
 
-import Cartao from '../../components/products/Cartao';
+import Cartao from '../../components/home/Card';
+import { useState, useEffect } from 'react';
+import Card from '../../components/home/Card';
 
-export default function Products({ produtos }){
+export default function Products(){
+    const [produtos, setProdutos] = useState([]);
+
+    useEffect(() =>{
+        (async () => {
+            const list = [];
+            const response = await fetch('https://api-trabalho-unimetro.herokuapp.com/produtos', {
+                mode: 'cors',
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            });
+            const data = await response.json()
+            
+            data.forEach((doc) => {
+                list.push({ id: doc.id, nome: doc.nome, img: doc.img, preco: doc.preco, descricao: doc.descricao })
+            })
+            setProdutos(list)
+
+        })()
+    }, []);
+
     return(
         <>
             <h1>Página de produtos</h1>
-            {/* {produtos.map(produto => (
-                <Cartao
-                    url=""
-                    nome={produto.nome}
-                    preco=""
+            {produtos.map(produto => (
+                <Card
+                    nome = {produto.nome}
+                    url = {produto.img}
+                    preco = {produto.preco}
+                    descricao = {produto.descricao}
                 />
-            ))} */}
+            ))}
         </>
     )
 }
-
-// export async function getServerSideProps(){
-//     const { data } = await axios.get('https://api-trabalho-unimetro.herokuapp.com/produtos')
-//     console.log(data)
-
-//     return{
-//         props : {
-//             produtos : data.results
-//         }
-//     }
-// }
