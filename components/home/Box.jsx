@@ -11,6 +11,7 @@ export default function Box(){
                     width={60}
                     height={60}
                     alt="image"
+                    className={Styles.icon}
                 />
                 <div className={Styles.content}>
                     <label> <b> FRETE GRÁTIS </b> </label>
@@ -23,6 +24,7 @@ export default function Box(){
                     width={60}
                     height={60}
                     alt="image"
+                    className={Styles.icon}
                 />
                 <div className={Styles.content}>
                     <label htmlFor='desc'> <b> SITE SEGURO </b> </label>
@@ -35,6 +37,7 @@ export default function Box(){
                     width={60}
                     height={60}
                     alt="image"
+                    className={Styles.icon}
                 />
                 <div className={Styles.content}>
                     <label> <b> ATENDIMENTO </b> </label>
@@ -47,6 +50,7 @@ export default function Box(){
                     width={60}
                     height={60}
                     alt="image"
+                    className={Styles.icon}
                 />
                 <div className={Styles.content}>
                     <label> <b> VANTAGENS </b> </label>
@@ -59,6 +63,7 @@ export default function Box(){
                     width={60}
                     height={60}
                     alt="image"
+                    className={Styles.icon}
                 />
                 <div className={Styles.content}>
                     <label> <b> PARCELAS </b> </label>

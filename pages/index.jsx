@@ -18,9 +18,9 @@ export default function Home() {
         <meta name="description" content="Encontre o que você quer comprar"></meta>
       </Head>
       <h1>LIGHT COM</h1>
-      {/* <Box />
+      <Box />
       <LayoutWallpaper />
-      <CardPag />
+      {/* <CardPag />
       <h2 className={Styles.destaque}>Em Destaque</h2>
       <hr />
       <LayoutCards /> */}
