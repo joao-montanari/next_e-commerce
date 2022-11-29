@@ -83,7 +83,7 @@ export default function LayoutCards(){
                     link="/products"
                 />
             </div>
-            <button className={Styles.buttonMais}><Link href= '/Products' > mais produtos </Link></button>
+            <button className={Styles.buttonMais}><Link href= '/products' > mais produtos </Link></button>
         </div>
     )
 }

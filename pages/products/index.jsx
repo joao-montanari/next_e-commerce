@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import axios from 'axios';
 
-import Cartao from '../../components/home/Card';
 import { useState, useEffect } from 'react';
-import Card from '../../components/home/Card';
+import Card from '../../components/products/Cartao';
 
 export default function Products(){
     const [produtos, setProdutos] = useState([]);
