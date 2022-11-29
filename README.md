@@ -6,6 +6,7 @@ Desenvolvedores:
 - Eric Britto Barreto
 - Kauan Costa
 - Wendell Santos
+- Otávio Danton Gonçalves
 
 ## Sobre o projeto
 
