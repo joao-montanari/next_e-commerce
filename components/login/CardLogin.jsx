@@ -4,7 +4,7 @@ import Styles from '../../styles/login/CardLogin.module.css';
 
 export default function CardLogin(){
     return(
-        <form className={Styles.container}>
+        <div className={Styles.container}>
             <h3>Para poder entrar na sua conta basta preencher os dados abaixo. Caso não tenha uma conta clique em "criar conta"</h3>
             <div className={Styles.child}>
                 <label>Digite o seu Email:</label>
@@ -16,6 +16,6 @@ export default function CardLogin(){
             </div>
             <Link href="/"><button type="submit" >Continuar</button></Link>
             <Link href="/" className={Styles.cadastro} >Criar conta</Link>
-        </form>
+        </div>
     )
 }

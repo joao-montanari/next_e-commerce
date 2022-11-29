@@ -31,19 +31,19 @@ export default function Card(){
                 <ul>
                     <li>
                         <Image
-                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20} alt="estrela"
                         />
                         <Image
-                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20} alt="estrela"
                         />
                         <Image
-                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20} alt="estrela"
                         />
                         <Image
-                            src="/img/icons/estrela-preenchida.ico" width={20} height={20}
+                            src="/img/icons/estrela-preenchida.ico" width={20} height={20} alt="estrela"
                         />
                         <Image
-                            src="/img/icons/estrela-vazia.ico" width={20} height={20}
+                            src="/img/icons/estrela-vazia.ico" width={20} height={20} alt="estrela"
                         />
                     </li>
                 </ul>
