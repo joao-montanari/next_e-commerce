@@ -5,7 +5,7 @@ import Styles from '../../styles/login/CardLogin.module.css';
 export default function CardLogin(){
     return(
         <div className={Styles.container}>
-            <h3>Para poder entrar na sua conta basta preencher os dados abaixo. Caso não tenha uma conta clique em "criar conta"</h3>
+            <h3>Para poder entrar na sua conta basta preencher os dados abaixo. Caso não tenha uma conta clique em criar conta</h3>
             <div className={Styles.child}>
                 <label>Digite o seu Email:</label>
                 <input id="email" type="email" placeholder="E-mail"/>
