@@ -40,12 +40,26 @@
     font-size: large;
     border-radius: 3px;
     background-color: #000;
-    margin-left: calc(50% - 100px);
     transition: all 400ms ease;
+    margin-left: calc(50% - 100px);
 }
 
 .container button:hover{
     color: #000;
     border: 1px solid #000;
     background-color: #fff;
+}
+
+@media only screen and (max-device-width: 500px){
+ .container{
+    width: 90%;
+    height: 900px;
+ }
+ .child input{
+    width: 300px;
+    margin: 4px auto;
+ }
+ .generos{
+    width: 300px;
+ }
 }
