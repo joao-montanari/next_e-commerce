@@ -28,7 +28,7 @@ export default function Products(){
 
     return(
         <>
-            <h1>Página de produtos</h1>
+            <h1>Produtos incríveis</h1>
             {produtos.map(produto => (
                 <Card
                     key = {produto.id}

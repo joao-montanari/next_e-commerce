@@ -15,7 +15,7 @@ export default function Cartao(props){
             <div className={Styles.child}>
                 <h2>{props.nome}</h2>
                 <p>{props.descricao}</p>
-                <h3>R$: {props.preco}</h3>
+                <h2>R$: {props.preco}</h2>
             </div>
         </div>
     )
