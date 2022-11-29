@@ -56,3 +56,9 @@
     color: #00649A;
     margin: 1px auto;
 }
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        width: 90%;
+    }
+}
