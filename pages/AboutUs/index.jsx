@@ -16,8 +16,8 @@ export default function About(){
             <h1>About Us</h1>
             <Container />
             <Project />
-            {/* <h1>Tecnologias usadas</h1>
-            <Box /> */}
+            <h1>Tecnologias usadas</h1>
+            <Box />
         </>
     )
 }

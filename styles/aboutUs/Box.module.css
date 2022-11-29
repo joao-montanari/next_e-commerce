@@ -7,3 +7,11 @@
     background-color: #00649A;
     justify-content: space-around;
 }
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        width: 90%;
+        display: grid;
+        height: 600px;
+    }
+}
