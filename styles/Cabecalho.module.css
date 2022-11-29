@@ -28,3 +28,9 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+@media only screen and (max-device-width: 900px){
+    .container{
+        font-size: small;
+    }
+}

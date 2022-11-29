@@ -48,3 +48,15 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        font-size: 8px;
+    }
+    .child h1{
+        font-size: 25px;
+    }
+    .child h3{
+        font-size: 12px;
+    }
+}

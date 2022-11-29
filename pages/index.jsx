@@ -17,13 +17,13 @@ export default function Home() {
         <meta name="keyworkds" content="Roupas, Eletroeletrônciso, acessórios"></meta>
         <meta name="description" content="Encontre o que você quer comprar"></meta>
       </Head>
-      <h1>Carrosel</h1>
-      <Box />
+      <h1>LIGHT COM</h1>
+      {/* <Box />
       <LayoutWallpaper />
       <CardPag />
       <h2 className={Styles.destaque}>Em Destaque</h2>
       <hr />
-      <LayoutCards />
+      <LayoutCards /> */}
     </div>
   )
 }
