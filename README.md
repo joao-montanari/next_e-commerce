@@ -20,5 +20,5 @@ A equipe é composta por um grupo de 4 pessoas na onde cada um assumiu uma funç
 
 ##Links da API
 
-Usuarios cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
-Produtos cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
+- Usuarios cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
+- Produtos cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
