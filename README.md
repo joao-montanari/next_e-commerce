@@ -18,7 +18,8 @@ Para o desenvolvimento do mesmo foi utilizado o Next, um framework baseado na bi
 
 A equipe é composta por um grupo de 4 pessoas na onde cada um assumiu uma função perante as requisitos pedidos. Dividindo as tarefas em design visual, desenvolvimento em Next e produção criativa para o site. Todos ficaram focados no Front-End, uma vez que a intenção é de desenvolver o Back-End em uma próxima fase do e-commerce.
 
-## Links da API
+## Links
 
 - Usuarios cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
 - Produtos cadastrados: https://api-trabalho-unimetro.herokuapp.com/usuarios
+- Hospedagem: https://e-commerce-projeto.vercel.app
