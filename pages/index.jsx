@@ -20,8 +20,8 @@ export default function Home() {
       <h1>LIGHT COM</h1>
       <Box />
       <LayoutWallpaper />
-      {/* <CardPag />
-      <h2 className={Styles.destaque}>Em Destaque</h2>
+      <CardPag />
+      {/* <h2 className={Styles.destaque}>Em Destaque</h2>
       <hr />
       <LayoutCards /> */}
     </div>

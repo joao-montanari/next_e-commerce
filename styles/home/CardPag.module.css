@@ -8,3 +8,18 @@
     justify-content: space-around;
     box-shadow: 0px 5px 10px black;
 }
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        display: grid;
+        height: 500px;
+    }
+    .container label{
+        margin: auto;
+    }
+    .img{
+        margin: auto;
+        width: 60px;
+        height: 60px;
+    }
+}
