@@ -19,7 +19,7 @@ export default function Container(){
                         src="/img/devs/joao-montanari.png"
                         width={230}
                         height={115}
-                        alt="image"
+                        alt="montanari"
                     />
                     <h4>João Montanari</h4>
                     <ul>
@@ -33,7 +33,7 @@ export default function Container(){
                         src="/img/devs/eric-britto.png"
                         width={230}
                         height={115}
-                        alt="image"
+                        alt="eric"
                     />
                     <h4>Eric Britto</h4>
                     <ul>
@@ -47,7 +47,7 @@ export default function Container(){
                         src="/img/devs/kauan-costa.png"
                         width={230}
                         height={115}
-                        alt="image"
+                        alt="kw"
                     />
                     <h4>Kauan Costa</h4>
                     <ul>
@@ -61,7 +61,7 @@ export default function Container(){
                         src="/img/devs/wandell-santos.png"
                         width={230}
                         height={115}
-                        alt="image"
+                        alt="wendell"
                     />
                     <h4>Wendell Santos</h4>
                     <ul>

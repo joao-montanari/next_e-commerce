@@ -55,6 +55,9 @@
         width: 90%;
         height: 1500px;
     }
+    .container h1{
+        padding: 10px;
+    }
     .child{
         display: grid;
         height: 1000px;

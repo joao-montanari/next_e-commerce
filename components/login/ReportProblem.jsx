@@ -12,7 +12,7 @@ export default function ReportProblem(){
                     src='/img/icons/celular.ico'
                     width={30}
                     height={30}
-                    alt="image"
+                    alt="celular"
                 />
                 <label htmlFor="celular">Roubo ou perda de telefone</label>
             </div>
@@ -22,7 +22,7 @@ export default function ReportProblem(){
                     src='/img/icons/pessoa.ico'
                     width={30}
                     height={30}
-                    alt="image"
+                    alt="pessoa"
                 />
                 <label htmlFor="pessoa">Roubo de conta</label>
             </div>

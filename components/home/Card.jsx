@@ -6,7 +6,12 @@ export default function Card(props){
     return(
         <div className={Styles.card}>
             <div className={Styles.demonstrativo}>
-                <Image src={props.url} width={200} height={100} />
+                <Image
+                    src={props.url}
+                    width={200}
+                    height={100}
+                    alt="produto"
+                />
             </div>
             <div className={Styles.descricao}>
                 <ul>
