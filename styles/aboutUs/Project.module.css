@@ -2,7 +2,6 @@
     width: 80%;
     height: 600px;
     margin: 50px auto;
-    /* border: 1px solid #000; */
 }
 
 .container h2{
@@ -15,20 +14,17 @@
     width: 100%;
     height: 90%;
     display: flex;
-    /* border: 1px solid #000; */
 }
 
 .content{
     width: 50%;
     height: 100%;
-    /* border: 1px solid #000; */
 }
 
 .con{
     width: 50%;
     height: 95%;
     display: grid;
-    /* border: 1px solid #000; */
 }
 
 .container p{
@@ -49,4 +45,26 @@
 .card label{
     margin: auto;
     font-size: 80px;
+}
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        height: 1000px;
+    }
+    .child{
+        height: 100%;
+        display: grid;
+    }
+    .content{
+        width: 100%;
+    }
+    .con{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .card label{
+        width: 100%;
+        font-size: 40px;
+    }
 }
