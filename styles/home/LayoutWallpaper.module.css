@@ -9,11 +9,21 @@
     width: 50%;
     height: 100%;
     display: grid;
-    align-items: center;
 }
 
 .imagem{
-    width: 80%;
-    height: 60%;
     margin: auto;
+}
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        display: grid;
+    }
+    .child{
+        width: 100%;
+    }
+    .imagem{
+        width: 300px;
+        height: 150px;
+    }
 }
