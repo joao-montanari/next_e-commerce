@@ -21,9 +21,9 @@ export default function Home() {
       <Box />
       <LayoutWallpaper />
       <CardPag />
-      {/* <h2 className={Styles.destaque}>Em Destaque</h2>
+      <h2 className={Styles.destaque}>Em Destaque</h2>
       <hr />
-      <LayoutCards /> */}
+      <LayoutCards />
     </div>
   )
 }

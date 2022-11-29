@@ -84,3 +84,13 @@
 .preco{
     font-size: 22px;
 }
+
+@media only screen and (max-device-width: 500px){
+    .container{
+        height: 4000px;
+    }
+    .child{
+        height: 49%;
+        display: grid;
+    }
+}

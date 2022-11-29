@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Cabecalho(){
     return(
         <div className={Styles.container}>
-            <Image src='/img/logo.png' width={60} height={60} alt='Logo' />
+            <Image className={Styles.logo} src='/img/logo.png' width={60} height={60} alt='Logo' />
             <ul>
                 <li> <Link href= '/Products' > Produtos </Link> </li>
                 <li> <Link href= '/'> Home </Link> </li>
